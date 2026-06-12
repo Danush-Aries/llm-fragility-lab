@@ -1,0 +1,22 @@
+[
+  {
+    "response": "The Eiffel Tower is located in Paris, France and was completed in 1889.",
+    "ground_truth": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France, constructed between 1887 and 1889."
+  },
+  {
+    "response": "Python was created by Guido van Rossum and first released in 1991.",
+    "ground_truth": "Python is a high-level programming language created by Guido van Rossum, with its first version released in 1991."
+  },
+  {
+    "response": "The moon is made of green cheese and orbits the sun directly.",
+    "ground_truth": "The Moon is Earth's only natural satellite, orbiting Earth at an average distance of about 384,400 km."
+  },
+  {
+    "response": "Photosynthesis converts sunlight into chemical energy stored in glucose.",
+    "ground_truth": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce oxygen and energy in the form of glucose."
+  },
+  {
+    "response": "Albert Einstein developed the theory of relativity and won the Nobel Prize in Physics in 1921.",
+    "ground_truth": "Albert Einstein formulated the theory of relativity and was awarded the Nobel Prize in Physics in 1921 for his discovery of the law of the photoelectric effect."
+  }
+]
