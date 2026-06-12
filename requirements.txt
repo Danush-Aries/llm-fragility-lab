@@ -1,0 +1,8 @@
+# Runtime dependencies
+# No third-party packages required — the scorer uses only the Python standard library.
+# numpy is available if you wish to extend the scoring with vector operations.
+numpy>=1.24.0
+
+# Development / testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
