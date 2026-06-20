@@ -41,7 +41,7 @@ A `drift_score` near **0** means the response closely matches the ground truth. 
 ## Installation
 
 ```bash
-git clone https://github.com/your-org/llm-fragility-lab.git
+git clone https://github.com/Dhanush-Aries/llm-fragility-lab.git
 cd llm-fragility-lab
 pip install -r requirements.txt
 ```
