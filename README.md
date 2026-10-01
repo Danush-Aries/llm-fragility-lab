@@ -2,10 +2,7 @@
 
 > **A zero-dependency toolkit that turns any (response, ground-truth) pair into a drift score in [0, 1] and a categorical hallucination risk — using five complementary lexical signals blended into one number.**
 
-<p align="center"><img src="assets/hero.gif" alt="LLM Fragility Lab drift score demo" width="720"></p>
-
 <p align="center">
-  <img src="https://img.shields.io/github/actions/workflow/status/Danush-Aries/llm-fragility-lab/ci.yml?branch=main&style=flat-square" alt="build">
   <img src="https://img.shields.io/badge/license-MIT-00ff41?style=flat-square" alt="license">
   <img src="https://img.shields.io/badge/made%20with-Python%203.9%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="python">
   <img src="https://img.shields.io/badge/tests-29%20passing-brightgreen?style=flat-square" alt="tests">
@@ -38,12 +35,6 @@ python3 main.py \
 - **Risk buckets** — `drift < 0.25 → low`, `< 0.5 → medium`, else `high`. Tunable via subclass.
 - **Batch + summary** — `batch_analyze(pairs)` runs the pipeline over a list; `summary(results)` gives you mean / min / max drift and a `risk_counts` histogram, ready to plot.
 - **CLI** — `--response`/`--truth` for single, `--batch <json>` for many, `--json` for pipe-friendly output. Backend package importable directly: `from backend.app.engines.hallucination_hunter import HallucinationHunter`.
-
-## Screenshots
-
-| CLI demo | Batch summary | Custom weights |
-|---|---|---|
-| ![](assets/screenshot-1.png) | ![](assets/screenshot-2.png) | ![](assets/screenshot-3.png) |
 
 ## Signals
 
