@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-00ff41?style=flat-square" alt="license">
   <img src="https://img.shields.io/badge/made%20with-Python%203.9%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="python">
-  <img src="https://img.shields.io/badge/tests-29%20passing-brightgreen?style=flat-square" alt="tests">
+  <a href="https://github.com/Danush-Aries/llm-fragility-lab/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Danush-Aries/llm-fragility-lab/ci.yml?branch=main&label=tests&style=flat-square" alt="tests"></a>
   <img src="https://img.shields.io/badge/runtime%20deps-0-informational?style=flat-square" alt="deps">
 </p>
 
